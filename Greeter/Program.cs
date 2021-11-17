@@ -6,7 +6,12 @@ namespace Greeter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input;
+            Console.WriteLine("Enter your name here");
+            input = Console.ReadLine();
+            Console.WriteLine("Hello " + input + "!!");
+
+            Console.WriteLine("Goodybye, " + input + ".");
         }
     }
 }
